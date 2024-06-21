@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-grey: #718c9e;
+    --light-grey: #b8cddd;
+    --dark-blue: #BC9738;
+    --color-golden: #BC9738;
+    --color-blue: #11101D;
+    --main-color: #BC9738;
+    --white: #fff;
+    --grey: #f5f5f5;
+    --yellow-color: #FDCF6F;
+    --darkest-blue: #252B42;
+    --light-dark: #423a3a;
+    --color-orange: #BC9738;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.fs-10 {
+    font-size: 10px !important;
+}
+
+.fs-11 {
+    font-size: 11px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-13 {
+    font-size: 13px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+
+/* border css start from here  */
+
+
+/* border css end here  */
+
+a,
+a:hover,
+a:focus {
+    color: #b8c7ce;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.bg-grey {
+    background-color: #EEEEEE;
+}
+
+.text-main {
+    color: var(--color-golden);
+}
+
+.bg-main {
+    background: var(--color-golden);
+}
+
+.bg-blue {
+    background: var(--color-blue);
+}
+
+.bg-light-main {
+    background: var(--dark-blue);
+}
+
+.sticky-top {
+    z-index: 1020;
+    /* Ensure it stays above other elements */
+}
+
+.header-gradient {
+    background: linear-gradient(91.39deg, #551D65 -3.69%, #3049AC 97.92%) !important;
+}
+
+.logo_img {
+    width: 70px;
+    height: 65px;
+}
+
+
+
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+/* .card {
+    width: 18rem;
+    margin: 0 10px;
+} */
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 5%;
+}
+
+.bg_secondary {
+    background: #303440 !important;
+    ;
+}
+
+.full_story {
+    position: absolute;
+    right: 26px !important;
+    bottom: 10px;
+}
+
+.custom_cards {
+    width: 291.91px;
+    height: 436px;
+}
+
+.footer {
+    background-color: #2C2C2E;
+    color: #FFFFFF;
+    padding: 20px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .footer-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer .footer-section {
+    margin-bottom: 20px;
+}
+
+.footer .footer-section h6 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer .footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer .footer-section ul li {
+    margin-bottom: 5px;
+}
+
+.footer .footer-bottom {
+    text-align: center;
+    padding-top: 10px;
+    border-top: 1px solid #3B3B3D;
+}
+
+
+
+
+
+
+
+
+.more_btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1.5px solid #5B55AC !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.news_btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1.5px solid #303440;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-title h2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3a3a3a;
+    border-radius: 20px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.best-of-best-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-of-best-section .side-placeholder {
+    flex: 1;
+    background-color: #cccccc;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.best-of-best-section .content {
+    flex: 2;
+    background-color: #303440;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.best-of-best-section .content .row {
+    margin: 0;
+}
+
+.best-of-best-section .content .row .col-6 {
+    padding: 10px;
+}
+
+.best-of-best-section .content .list-group-item {
+    background-color: transparent;
+    border-bottom: 1px solid #53596A;
+    color: #ffffff;
+    padding-left: 0;
+}
+
+.best-of-best-section .content .list-group-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.best-of-best-section .content .list-group-item .country-flag,
+.best-of-best-section .content .list-group-item .player-photo {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.nav-tabs .nav-link.active {
+    background-color: #4c4c4e;
+    border-color: #4c4c4e;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4c4c4e;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+}
+
+.match-zone {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.placeholder {
+    background-color: #fff;
+    height: 100px;
+}
+
+.placeholder3 {
+    background-color: #fff;
+    height: 350px !important;
+    border-radius: 20px;
+}
+
+.placeholder2 {
+    background-color: #fff;
+    min-height: 120vh;
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: #4c4c4e;
+}
+
+.nav-pills .nav-link {
+    color: #fff;
+    margin: 0 5px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #4c4c4e;
+    border-color: #4c4c4e;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.btn-light {
+    background-color: #4c4c4e;
+    color: #fff;
+}
+
+.bg_thirdy {
+    background: #39414E !important;
+}
+
+
+
+.rounded_circle img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.rounded_circle {
+    width: 30px;
+    height: 30px;
+}
+
+
+.bg_purple {
+    background: #5B55AC !important;
+    font-family: mont;
+}
+
+.border_purple {
+    border: 1px solid #5B55AC !important;
+}
+
+.font_mont {
+    font-family: 'Montserrat', sans-serif !important;
+
+}
+
+
+
+
+
+
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    background-color: #4c4c4e;
+    border-color: #4c4c4e;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #fff;
+}
+
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.match-zone-title {
+    font-size: 1.5rem;
+    background-color: #2c2c2e;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.tab-content {
+    margin-top: 20px;
+}
+
+.match-image {
+    height: 200px;
+    width: 100%;
+}
+
+.border_bottom {
+    border-bottom: 2px solid #fff !important;
+    border-radius: 0 !important;
+}
+
+
+.rounded_btn {
+    color: #fff;
+    padding: 8px 10px;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 20px;
+}
+
+.card_rounded {
+    border: 2px solid #303440 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    border-radius: 20px;
+}
+
+.mini_logo {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.mini_logo img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+
+
+
+.ranking-table tbody tr {
+    margin-bottom: 15px !important;
+}
+
+.fs-8 {
+    font-size: 4px !important;
+}
+
+
+
+.main-card img,
+.side-card img {
+    border-radius: 5px;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.875rem;
+}
+
+.btn-news {
+    font-size: 0.75rem;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+}
+
+.match-predictions {
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.main-card img {
+    width: 100%;
+    height: auto;
+}
+
+.vr_img img {
+    width: 70px;
+    height: 70px;
+}
+
+.bottom_10 {
+    bottom: 30px !important;
+}
+
+.mini_card {
+    width: 50px;
+    height: 40px;
+}
+
+.mini_card img {
+    width: 100%;
+    height: auto;
+}
+
+
+.custom_sec {
+    background: #3346A7 !important;
+}
